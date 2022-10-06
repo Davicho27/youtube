@@ -1,0 +1,124 @@
+:root {
+    --black: #000000;
+    --grape: #f8f8f8;
+    --grape-bold: rgb(231, 231, 231);
+    --white: #ffffff;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: var(--md);
+    background-color: var(--grape);
+}
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.icon-bar {
+    width: 25px;
+    margin: 0 20px 0 20px;
+}
+.logo-bar{
+    width: 90px
+}
+.navbar-left ul, .navbar-center ul, .navbar-right ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.input-search {
+    margin: 0;
+    border: 1px solid var(--grape-bold);
+    width: 500px;
+    height: 40px;
+    border-radius: 2px 0px 0px 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-center ul li .input-search:focus-within{
+    border: 1px solid var(--black);
+}
+.navbar-center ul li .input-search input{
+    margin: 0;
+    width: 85%;
+    height: 100%;
+    border: 0;
+}
+.navbar-center ul li .input-search input:focus{
+    outline: none;
+    border: 0;
+}
+.navbar-center ul li .input-search button {
+    width: 15%;
+    height: 102%;
+    background: none;
+    border: 0;
+    color: inherit;
+    overflow: visible;
+    padding: 0;
+    
+}
+.navbar-center ul li .input-search button img{
+    height: 22px;
+    margin: 0;
+}
+.navbar-center ul .box-search a {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    border: 1px solid var(--grape-bold);
+    border-left: 0px solid;
+    border-radius: 0px 2px 2px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--grape);
+}
+.navbar-center ul .search{
+    width: 20px;
+}
+.navbar-center ul .box-micro a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--grape);
+    margin-left: 8px;
+}
+.navbar-center ul .micro{
+    width: 15px;
+}
+.navbar-right ul li a .option {
+    width: 6px;
+}
+.navbar-right ul .acceder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 34px;
+    border-radius: 2px;
+    border: 1px solid rgb(0, 0, 255);
+    margin: 0 20px 0 20px;
+}
+.navbar-right ul .acceder img{
+    margin-right: 6px;
+    width: 16px;
+}
+.navbar-right ul .acceder a {
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    font-size: var(--sm);
+}
