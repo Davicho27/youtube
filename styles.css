@@ -3,6 +3,8 @@
     --grape: #f8f8f8;
     --grape-bold: rgb(231, 231, 231);
     --white: #ffffff;
+    --smal: 10px;
+    --sma: 12px;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -128,4 +130,44 @@ nav {
     color: rgb(0, 0, 255);
     font-size: var(--sm);
     font-weight: bold;
+}
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.container .part-one .option-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+.container .part-one .option-social .vista-video{
+    display: flex;
+}
+.container .part-one .option-social .liked {
+    display: flex;
+    align-items: center;
+}
+.part-two{
+    margin-left: 20px;
+}
+.container div .card-video {
+    display: flex;
+    margin-bottom: 10px;
+}
+.container div .info-video {
+    margin-left: 10px;
+}
+.container div .info-video .subtitle {
+    font-size: var(--sm);
+    margin: 4px 0 4px 0;
+}
+.container div .info-video .artis {
+    font-size: var(--sma);
+    margin: 14px 0 6px 0;
+}
+.container div .info-video .visit {
+    font-size: var(--smal);
+    margin: 0;
 }
