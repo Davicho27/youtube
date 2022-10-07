@@ -136,20 +136,45 @@ nav {
     display: flex;
     justify-content: center;
 }
+.container .part-one .hastag p{
+    display: inline-block;
+    padding: 0;
+}
+.container .part-one .hastag h2 {
+    display: inline-block;
+    padding: 0;
+}
 .container .part-one .option-social {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    font-size: var(--sm);
 }
 .container .part-one .option-social .vista-video{
     display: flex;
 }
+.container .part-one .option-social .vista-video p:nth-child(2){
+    margin-left: 12px;
+}
 .container .part-one .option-social .liked {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
-.part-two{
+.container .part-one .option-social .liked a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.container .part-one .sus .suscrib .suscrib-left .img-perfil {
+    display: flex;
+    justify-content: flex-start;
+}
+.container .part-one .sus .suscrib .suscrib-left .img-perfil img {
+    width: 58px;
+    border-radius: 50%;
+}
+.container .part-two{
     margin-left: 20px;
 }
 .container div .card-video {
