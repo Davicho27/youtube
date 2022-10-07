@@ -14,6 +14,7 @@
 body {
     margin: 0;
     font-size: var(--md);
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--grape);
 }
 nav {
@@ -28,7 +29,7 @@ nav {
     margin: 0 20px 0 20px;
 }
 .logo-bar{
-    width: 90px
+    width: 120px
 }
 .navbar-left ul, .navbar-center ul, .navbar-right ul{
     list-style: none;
@@ -51,7 +52,7 @@ nav {
 }
 .navbar-center ul li .input-search input{
     margin: 0;
-    width: 85%;
+    width: 92%;
     height: 100%;
     border: 0;
 }
@@ -60,7 +61,7 @@ nav {
     border: 0;
 }
 .navbar-center ul li .input-search button {
-    width: 15%;
+    width: 8%;
     height: 102%;
     background: none;
     border: 0;
@@ -70,7 +71,8 @@ nav {
     
 }
 .navbar-center ul li .input-search button img{
-    height: 22px;
+    width: 18px;
+    height: 18px;
     margin: 0;
 }
 .navbar-center ul .box-search a {
@@ -82,10 +84,12 @@ nav {
     border-radius: 0px 2px 2px 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--grape);
 }
 .navbar-center ul .search{
-    width: 20px;
+    width: 24px;
+    height: 22px;
 }
 .navbar-center ul .box-micro a{
     display: inline-block;
@@ -94,14 +98,16 @@ nav {
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--grape);
     margin-left: 8px;
 }
 .navbar-center ul .micro{
-    width: 15px;
+    width: 24px;
+    height: 24px;
 }
 .navbar-right ul li a .option {
-    width: 6px;
+    width: 10px;
 }
 .navbar-right ul .acceder {
     display: flex;
@@ -115,10 +121,11 @@ nav {
 }
 .navbar-right ul .acceder img{
     margin-right: 6px;
-    width: 16px;
+    width: 26px;
 }
 .navbar-right ul .acceder a {
     text-decoration: none;
     color: rgb(0, 0, 255);
     font-size: var(--sm);
+    font-weight: bold;
 }
